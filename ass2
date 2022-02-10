@@ -1,0 +1,23 @@
+sno=(input('enter student no:'))
+sname=input('enter student name:')
+sgroup=input('enter student group')
+s1=int(input('maths marks:'))
+s2=int(input('electronics marks:'))
+s3=int(input('computer science:'))
+s4=int(input('english:'))
+s5=int(input('telugu:'))
+s6=int(input('analytical skills:'))
+s7=int(input('online business:'))
+s1>=30
+s2>=30
+s3>=30
+s4>=30
+s5>=30
+s6>=30
+s7>=30
+if s1>=30 and s2>=30 and s3>=30 and s4>=30 and s5>=30 and s6>=30 and s7>=30:
+      print('pass')
+else:
+      print('fail')
+   
+

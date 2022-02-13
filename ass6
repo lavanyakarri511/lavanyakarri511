@@ -1,0 +1,29 @@
+salt=30
+sugar=50
+oilpacket=150
+chillipowder=80
+cname=input('enter customer name:')
+cphno=input('enter customer phone number:')
+rq=int(input('enter noof rice packets:'))
+suq=int(input('enter no of sugar packets:'))
+saq=int(input('enter no of salt packets:'))
+oilpq=int(input('enter no of oil packets:'))
+cpq=int(input('enter no of chillipackets:'))
+bill=(ricepacket*rq)+(salt*saq)+(sugar*suq)+(oilpacket*oilpq)+(chillipowder*cpq)
+if ricepacket=100
+bill>5000:
+    dis=bill*10/100
+    tax=bill*18/100
+elif bill>3000:
+    dis=bill*8/100
+    tax=bill*10/100
+elif bill>2000:
+    dis=bill*5/100
+    tax=bill*10/100
+elif bill>1000:
+    dis=bill*3/100
+    tax=bill*10/100
+mainbill=bill-tax
+print('billamount:',mainbill)
+
+    

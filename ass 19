@@ -1,0 +1,17 @@
+n=int(input())
+l=[]
+positive=[]
+negative=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+print(l)
+x=0
+for i in range(n):
+    if l[i]>0:
+        positive.append(l[i])
+for i in range(x,n):
+    if l[i]<0:
+        negative.append(l[i])
+        x=x+1
+print(positive,negative)        

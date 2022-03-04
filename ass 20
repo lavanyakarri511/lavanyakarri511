@@ -1,0 +1,19 @@
+l=[]
+n=int(input('enter number'))
+for i in range(n):
+    x=int(input())
+    l.append(x)
+print(l)
+res=[]
+t=[]
+count=0
+for i in l:
+    if i not in res:
+        res.append(i)
+    else:
+            t.append(i)
+            count=count+i
+        
+print(res)
+print(count)
+        
